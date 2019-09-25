@@ -26,4 +26,4 @@ def result():
         return render_template('result.html', rows=rows, previous_month3=str_previous_month3, previous_month=str_previous_month, postcode=postcode, count=len(rows))
 
 if __name__ == '__main__':
-    app.run(debug = True)
+    app.run(host='0.0.0.0')
